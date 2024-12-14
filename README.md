@@ -45,7 +45,7 @@ python pattern_matrix.py input.svg output.svg --gap_x_percent 20 --gap_y_percent
 
 ## Example
 
-To generate a pattern matrix with a 20% gap, a secondary matrix shifted by 50% in both directions, and 5 replications:
+To generate a pattern matrix with a 10% gap, a secondary matrix shifted by 55% in both directions, and 5 replications in x and 8 in y:
 
 ```bash
 python3 pattern_generator.py input/fabric_single.svg output/fabric.svg --gap_x_percent 10 --gap_y_percent 1
