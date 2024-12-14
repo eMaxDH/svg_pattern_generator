@@ -1,0 +1,27 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: Current File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": ["fabric_2_single.svg",
+            "fabric.svg",
+            "--gap_x",
+            "24",
+            "--gap_y",
+            "24",
+            "--shift_x",
+            "62.5",
+            "--shift_y",
+            "62.5",
+            "--replications_x",
+            "20",
+            "--replications_y",
+            "11",
+            ]
+        }
+    ]
+}
